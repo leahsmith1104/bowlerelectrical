@@ -5,17 +5,16 @@ nav {
 
   ul {
     text-align: center;
-    padding: 20px;
   }
 
   li {
       display: inline-block;
       width: 8%;
       list-style-type: none;
-      border-right: solid 1px rgba(255,255,255, 0.6);
+      padding: 20px;
 
-      &:last-child {
-        border-right: none;
+      &:hover {
+        border-bottom: 5px solid rgba(255,255,255, 0.6);
       }
   }
 
@@ -33,4 +32,17 @@ nav {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+}
+
+.navigation__item::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 5px;
+    background: rgba(255,255,255, 0.6);
+    transition: width .3s;
+}
+
+.navigation__item:hover::after {
+    width: 100%;
 }
