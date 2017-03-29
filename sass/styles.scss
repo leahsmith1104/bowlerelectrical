@@ -1,0 +1,17 @@
+/**
+* to run use: sass --watch sass:css --style compressed;
+**/
+
+@import 'variables';
+@import 'reset';
+@import 'nav';
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: $base-font-size;
+  font-family: $base-font;
+  color: #fff;
+  line-height: 1.4;
+}
