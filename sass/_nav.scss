@@ -12,19 +12,11 @@ nav {
       width: 8%;
       list-style-type: none;
       padding: 20px;
-
-      &:hover {
-        border-bottom: 5px solid rgba(255,255,255, 0.6);
-      }
   }
 
   a {
     color: #fff;
     text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
   }
 }
 
