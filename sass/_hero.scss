@@ -1,3 +1,7 @@
+.hero {
+    background: url(images/bowler-electric-logo.png) top center no-repeat;
+}
+
 .hero__logo {
     display: inline-block;
     width: 50%;
@@ -5,11 +9,11 @@
 }
 
 .hero__logo img {
-    width: 55%;
+    width: 45%;
 }
 
 .hero__content {
     display: inline-block;
     color: #347aa4;
-    width: 50%;
+    width: 55%;
 }
