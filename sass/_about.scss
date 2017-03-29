@@ -1,9 +1,10 @@
 .about {
-    background-color: #347aa4;
+    background-color: $primary-color;
     position: relative;
     z-index: 1;
-    height: 500px;
+    min-height: 230px;
     width: 100%;
+    text-align: center;
 }
 
 .about:before {
@@ -20,6 +21,14 @@
     z-index: -1;
 }
 
-.about h1 {
-    margin-top: -20px;
+.about__content {
+
+    &--list {
+        font-weight: 300;
+        letter-spacing: 0.5px;
+
+        li {
+            line-height: 2;
+        }
+    }
 }
