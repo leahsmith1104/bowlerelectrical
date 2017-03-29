@@ -23,12 +23,22 @@
 
 .about__content {
 
+    &--icon {
+        width: 30%;
+    }
+
+    &--title {
+        line-height: 0;
+        padding-bottom: 15px;
+    }
+
     &--list {
         font-weight: 300;
         letter-spacing: 0.5px;
 
         li {
-            line-height: 2;
+            line-height: 1.5;
+            opacity: 0.8;
         }
     }
 }
