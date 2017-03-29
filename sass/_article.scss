@@ -1,0 +1,11 @@
+article {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.hero article {
+    padding: 60px 0 160px;
+}

@@ -5,6 +5,7 @@
 @import 'variables';
 @import 'reset';
 @import 'nav';
+@import 'headings';
 
 
 body {
@@ -14,4 +15,9 @@ body {
   font-family: $base-font;
   color: #fff;
   line-height: 1.4;
+}
+
+.fixed-width {
+    width: 1200px;
+    margin: 0 auto;
 }
