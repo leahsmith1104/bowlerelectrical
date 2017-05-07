@@ -1,0 +1,12 @@
+.button__contact {
+    text-transform: uppercase;
+    color: $secondary-color;
+    border: 2px solid $secondary-color;
+    border-radius: 4px;
+    background: transparent;
+}
+
+.button__contact:hover {
+    background: $secondary-color; 
+    color: #fff;
+}
