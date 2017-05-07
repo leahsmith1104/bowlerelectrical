@@ -6,31 +6,27 @@
     background: transparent;
     padding: 20px;
     text-decoration: none;
+    width: 45%;
+    display: inline-block;
+    margin: 0 2%;
+}
+
+.button__contact--phone {
+    background: url(../images/phone-icon.png) no-repeat;
+}
+
+.button__contact--email {
+    background: url(../images/email-icon.png) no-repeat;
 }
 
 .button__contact:hover {
     background: $secondary-color; 
     color: #fff;
 }
-
-.button__icon {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-}
-
-.button__icon--phone {
-    background: url(../images/phone-icon.png) no-repeat;
-}
-
-.button__icon--phone:hover {
+.button__contact--phone:hover{
     background: url(../images/phone-icon-hover.png) no-repeat;
 }
 
-.button__icon--email {
-    background: url(../images/email-icon.png) no-repeat;
-}
-
-.button__icon--email:hover {
+.button__contact--email:hover {
     background: url(../images/email-icon-hover.png) no-repeat;
 }
