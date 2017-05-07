@@ -12,3 +12,11 @@
     background: $secondary-color; 
     color: #fff;
 }
+
+.button__icon--phone {
+    background: url(../images/phone-icon.png) top center no-repeat;
+}
+
+.button__icon--email {
+    background: url(../images/email-icon.png) top center no-repeat;
+}
