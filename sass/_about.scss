@@ -27,10 +27,10 @@
     display: block;
     position: absolute;
     height: 50%;
-    top: 0;
+    bottom: 0;
     left: 0;
     right: 0;
-    transform: skewY(-4.5deg);
+    transform: skewY(-2.5deg);
     transform-origin: 100%;
     z-index: -1;
 }
