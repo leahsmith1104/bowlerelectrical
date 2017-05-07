@@ -1,6 +1,6 @@
 .about {
     background-color: $primary-color;
-    background: linear-gradient(to right, rgba(88,165,201,1) 0%, rgba(52,121,164,1) 100%);
+    background: linear-gradient(to right, rgba(52,121,164,1) 0%, rgba(88,165,201,1) 100%);
     position: relative;
     z-index: 1;
     min-height: 230px;
@@ -10,6 +10,7 @@
 
 .about:before {
     background-color: inherit;
+    background: inherit;
     content: '';
     display: block;
     position: absolute;
@@ -24,6 +25,7 @@
 
 .about:after {
     background-color: inherit;
+    background: inherit;
     content: '';
     display: block;
     position: absolute;
