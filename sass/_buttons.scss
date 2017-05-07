@@ -13,18 +13,24 @@
     color: #fff;
 }
 
+.button__icon {
+    float: left;
+    width: 10px;
+    height: 40px;
+}
+
 .button__icon--phone {
-    background: url(../images/phone-icon.png) top center no-repeat;
+    background: url(../images/phone-icon.png) no-repeat;
 }
 
 .button__icon--phone:hover {
-    background: url(../images/phone-icon-hover.png) top center no-repeat;
+    background: url(../images/phone-icon-hover.png) no-repeat;
 }
 
 .button__icon--email {
-    background: url(../images/email-icon.png) top center no-repeat;
+    background: url(../images/email-icon.png) no-repeat;
 }
 
 .button__icon--email:hover {
-    background: url(../images/email-icon-hover.png) top center no-repeat;
+    background: url(../images/email-icon-hover.png) no-repeat;
 }
