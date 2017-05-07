@@ -11,6 +11,14 @@
     margin: 0 2%;
 }
 
+.button__contact a {
+    color: $secondary-color;
+}
+
+.button__contact a:hover {
+    color: #fff;
+}
+
 .button__contact--phone {
     background: url(../images/phone-icon.png) no-repeat;
 }
@@ -20,9 +28,9 @@
 }
 
 .button__contact:hover {
-    background: $secondary-color; 
-    color: #fff;
+    background: $secondary-color;
 }
+
 .button__contact--phone:hover{
     background: url(../images/phone-icon-hover.png) no-repeat;
 }
