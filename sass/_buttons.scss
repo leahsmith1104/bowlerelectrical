@@ -11,8 +11,10 @@
     margin: 0 2%;
 }
 
-.button__contact a {
-    color: $secondary-color;
+.button__contact:hover {
+    background-color: $secondary-color;
+    background: linear-gradient(to right, rgba(52,121,164,1) 0%, rgba(88,165,201,1) 100%);
+    color: #fff;
 }
 
 .button__contact--phone {
@@ -21,15 +23,6 @@
 
 .button__contact--email {
     background: url(../images/email-icon.png) no-repeat;
-}
-
-.button__contact:hover {
-    background-color: $secondary-color;
-    background: linear-gradient(to right, rgba(52,121,164,1) 0%, rgba(88,165,201,1) 100%);
-}
-
-.button__contact a:hover {
-    color: #fff;
 }
 
 .button__contact--phone:hover{
