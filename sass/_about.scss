@@ -21,6 +21,20 @@
     z-index: -1;
 }
 
+.about:after {
+    background-color: inherit;
+    content: '';
+    display: block;
+    position: absolute;
+    height: 50%;
+    top: 0;
+    left: 0;
+    right: 0;
+    transform: skewY(-4.5deg);
+    transform-origin: 100%;
+    z-index: -1;
+}
+
 .about__content {
 
     &--icon {
