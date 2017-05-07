@@ -4,9 +4,14 @@
     text-align: center;
 }
 
+.contact article {
+    padding: 20px 0;
+}
+
 .contact__content {
     &--title {
         color: $secondary-color;
+        font-weight: 400;
     }
 
     &--information {
